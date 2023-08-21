@@ -1,0 +1,154 @@
+
+body{
+    padding:0px -20px;
+    margin:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-size: fixed;
+    line-height:20px;
+    margin: 40px;
+   font-family: 'Times New Roman', Times, serif;
+   
+}
+h1{
+    font-size: 60px;
+    line-height: 0px;
+    font-variant-position: inherit;
+    letter-spacing: 7px;
+    font-variant: small-caps;
+    color: rgba(6, 4, 12, 0.945);
+}
+h2,h3,h4,h5,h6{
+    font-size: 30px;
+    line-height:2px ;
+    font-variant-caps: normal;
+    color:hsla(314, 87%, 6%, 0.973);
+    line-height: 2px;
+    font-variant: small-caps;
+}
+p1,p,pi{
+    font-size:20px;
+    color:rgb(51, 33, 33);
+   
+}
+p1,p,pi,p2,p3,p4{
+    line-height: 25px;
+}
+p1{
+    font-weight: 200px;
+}
+
+p2{
+    font-size: 15px;
+}
+p3{
+
+    font-size:10px;
+}
+p4{
+    font-size:10px;
+}
+.p{
+    line-height: 0px;
+    margin-top: -2px;
+}
+
+.head{
+    height:100px;
+    width:100%;
+    justify-content: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    line-height:1px;
+    padding:0px 2px;
+    background-color: hsl(0,100%,97%);
+    border-radius: 20px;
+    margin-bottom: 10px;
+
+}
+.con{
+    display: flex;
+    justify-content: flex-start;
+    
+   
+}
+.side{
+    margin-left:40px;
+    
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    h1{
+        font-size: 22px;
+        
+    }
+    h2,h3,h4,h5,h6
+    {
+        font-size: 20px;
+    }
+    p1,p,pi{
+        font-size:10px;
+    }
+    p1,p,pi,p2,p3,p4{
+        line-height: 15px;
+    }
+    p1{
+        font-weight: 100px;
+    }
+    p2{
+        font-size: 8px;
+    }
+    p3{
+    
+        font-size:5px;
+    }
+    p4{
+        font-size:6px;
+    }
+    .pi{
+        line-height: 2px;
+        margin-top: -1px;
+        font-size:10px;
+        
+    }
+    .head{
+        height:50px;
+        width:50%;
+        
+        padding:0px 1px;
+        background-color: hsl(0,100%,97%);
+        border-radius: 10px;
+        margin-bottom: 5px;}
+
+        body{
+            padding:0px -10px;
+            margin:10px;
+            
+            background-size: fixed;
+            line-height:10px;
+            margin: 20px;
+        }
+        .side{
+            margin-left:20px;
+           
+            border-radius: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 5px;
+            align-items:stretch ;
+            width:250;
+        }
+        .side{
+            align-items: stretch;
+            padding:2px;
+        }
+    .con{
+        display: flex;
+        justify-content: flex-start;
+    }
+}

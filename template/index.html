@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap</title>
+<link rel="stylesheet" href="{% static '/css/bootstrap.min.css' %}">
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+       <div class="container">
+        <div class="navbar-header">
+            <a href="#" class="navbar-brand">DropTake</a>
+        </div>
+        <ul class="nav navbar-nav ">
+            <li ><a href="/products">product list</a></li>
+        </ul>
+           <ul class="nav navbar-nav navbar-right">
+           
+            <li><a href="/log"><i class="glyphicon glyphicon-user "></i>logout</a></li>
+            
+           </ul>
+        </div>
+       
+    </nav>
+        
+    <script src="{% static '/js/jquery.min.js' %}"></script>
+    <script src="{% static '/js/jquery.min.js' %}"></script>
+</body>
+</html>

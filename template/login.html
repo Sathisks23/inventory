@@ -1,0 +1,16 @@
+<br><br><br><br><br><br><br><center>
+<h1>LOGIN </h1>
+
+{% for message in messages%}
+<h2 style="color:red">{{message}}</h2>
+{% endfor %}
+<form method="POST">
+    {% csrf_token %}
+    <p>username:</p>
+    <input type="text" name="username">
+    <p>password:</p>
+    <input type="password" name="password"><br><br>  
+    <input type="submit">
+</form>
+<h3> I not registern <a href="/reg">register</a></h3>
+</center>
